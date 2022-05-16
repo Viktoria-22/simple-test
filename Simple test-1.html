@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple test/Belova V</title>
+    
+</head>
+<body>
+    
+    <picture>
+        
+        <source srcset="desktop_1x.png 1x, desktop_2x.png 2x, desktop_3x.png 3x " media="(min-width: 1024px)" > 
+
+        <source srcset="tablet_1x.png, tablet_2x.png 2x, tablet_3x.png 3x" media="(min-width: 768px)" >
+        <!-- Тут может быть прописано условие для мобилки "(max-width: 767px)", но в данном случае не обязательно.  Мобильное изображение ставится по умолчанию, если первые два условия не совпали -->
+        <img srcset="mobile_1x.png 1x, mobile_2x.png 2x, mobile_3x.png 3x" alt="default">
+
+      </picture>
+      
+     
+</body>
+</html>
